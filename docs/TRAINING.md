@@ -24,5 +24,6 @@ Si no pasas `--model`, el script busca el `best.pt` mas reciente dentro de las c
 
 ## Notebooks
 
-El notebook principal de apoyo es `notebooks/02-training-yolo.ipynb`.
+El notebook recomendado para trabajar el flujo completo es `notebooks/01-yolo-entrenamiento-y-prueba.ipynb`.
+El cuaderno `notebooks/02-training-yolo.ipynb` queda como transicion y apoyo.
 Los notebooks en `notebooks/archive/` se conservan como referencia historica.

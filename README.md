@@ -8,7 +8,8 @@ El proyecto nacio con un baseline en ConvNeXt y hoy utiliza YOLO Classification 
 
 - Flujo principal: `scripts/train.py`
 - Inferencia puntual: `scripts/infer.py`
-- Notebook de apoyo: `notebooks/02-training-yolo.ipynb`
+- Notebook canonico: `notebooks/01-yolo-entrenamiento-y-prueba.ipynb`
+- Notebook de apoyo anterior: `notebooks/02-training-yolo.ipynb`
 - Baseline legacy: `scripts/train_legacy_convnext.py`
 
 ## Estructura
@@ -69,6 +70,14 @@ python scripts/infer.py ruta/a/imagen.jpg
 ```powershell
 python scripts/demo_image.py ruta/a/imagen.jpg
 ```
+
+## Notebook recomendado
+
+```text
+notebooks/01-yolo-entrenamiento-y-prueba.ipynb
+```
+
+Este cuaderno concentra el flujo limpio de entrenamiento e inferencia con YOLO, incluyendo prueba con imagen local o URL.
 
 ## Documentacion
 
